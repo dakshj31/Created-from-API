@@ -1,0 +1,20 @@
+{
+    "name": "desktop/api_php",
+    "description": "A simple API in PHP",
+    "autoload": {
+        "psr-4": {
+            "Desktop\\ApiPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dakshj31",
+            "email": "dakshjoshi1355@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "stripe/stripe-php": "^16.1"
+    }
+}
